@@ -1,0 +1,132 @@
+*.xcodeproj
+example*/bin/data
+example*/bin/libs/
+example*/bin/*
+!example*/bin/data/.gitkeep
+!example*/bin/data/*.png
+
+
+#########################
+# openFrameworks patterns
+#########################
+
+# build files
+openFrameworks.a
+openFrameworksDebug.a
+openFrameworksUniversal.a
+libs/openFrameworksCompiled/lib/*/*
+!libs/openFrameworksCompiled/lib/*/.gitkeep
+
+# apothecary
+scripts/apothecary/build
+
+# rule to avoid non-official addons going into git
+# see addons/.gitignore
+addons/*
+
+# rule to avoid non-official apps going into git
+# see apps/.gitignore
+apps/*
+
+# also, see examples/.gitignore
+
+#########################
+# general
+#########################
+
+[Bb]uild/
+[Oo]bj/
+*.o
+[Dd]ebug*/
+[Rr]elease*/
+*.mode*
+*.app/
+*.pyc
+.svn/
+*.log
+*.cpp.eep
+*.cpp.elf
+*.cpp.hex
+
+#########################
+# IDE
+#########################
+
+# XCode
+*.pbxuser
+*.perspective
+*.perspectivev3
+*.mode1v3
+*.mode2v3
+# XCode 4
+xcuserdata
+*.xcworkspace
+
+# Code::Blocks
+*.depend
+*.layout
+
+# Visual Studio
+*.sdf
+*.opensdf
+*.suo
+*.pdb
+*.ilk
+*.aps
+ipch/
+*.db
+*.opendb
+
+# Eclipse
+.metadata
+local.properties
+.externalToolBuilders
+
+#########################
+# operating system
+#########################
+
+# Linux
+*~
+# KDE
+.directory
+.AppleDouble
+
+# OSX
+.DS_Store
+*.swp
+*~.nib
+# Thumbnails
+._*
+
+# Windows
+# Windows image file caches
+Thumbs.db
+# Folder config file
+Desktop.ini
+
+# Android
+.csettings
+/libs/openFrameworksCompiled/project/android/paths.make
+
+#########################
+# miscellaneous
+#########################
+
+.mailmap
+DerivedData
+Makefile
+config.make
+openFrameworks-Info.plist
+Project.xcconfig
+4d937b15bf7290abed9608569d229201-3feca3f7a5aea390498a353a076af8e01b4bc05d.zip
+example-devmidi/example-devmidi.sln
+example-devmidi/example-devmidi.vcxproj
+example-devmidi/example-devmidi.vcxproj.filters
+example-devmidi/example-devmidi.vcxproj.user
+example-devmidi/icon.rc
+example-helpers/example-helpers.sln
+example-helpers/example-helpers.vcxproj
+example-helpers/example-helpers.vcxproj.filters
+example-helpers/example-helpers.vcxproj.user
+example-helpers/icon.rc
