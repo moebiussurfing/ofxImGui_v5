@@ -2,7 +2,7 @@
 There's several **ofxImGui** forks.  
 This fork is currently based into:  
 (https://github.com/MacFurax/ofxImGui/tree/docking)[https://github.com/MacFurax/ofxImGui/tree/docking]  
-My plans are to jump to this new fork frpom *@Daandelange* soon:  
+My plans are to jump to this (recommended) new fork from *@Daandelange* soon:  
 https://github.com/Daandelange/ofxImGui
 
 
